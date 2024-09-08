@@ -8,7 +8,6 @@ TO DO VIEW: responsible for UI
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:isar/isar.dart';
 import 'package:todo_clean/domain/models/todo.dart';
 import 'package:todo_clean/presentation/todo_cubit.dart';
 
