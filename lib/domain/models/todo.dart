@@ -30,4 +30,12 @@ class Todo {
     required this.text,
     this.isCompleted = false,
   });
+
+  Todo toggleCompletion() {
+    return Todo(
+      id: id,
+      text: text,
+      isCompleted: !isCompleted,
+    );
+  }
 }
